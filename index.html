@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,500&display=swap"
       rel="stylesheet"
     />
+
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
 
@@ -22,17 +23,16 @@
   <body>
     <!-- Navbar Start -->
     <nav class="navbar">
-      <a href="#" class="navbar-logo">Tenda<span>T</span>anya</a>
+      <a href="#" class="navbar-logo">Tenda<span>Tanya.</span></a>
 
       <div class="navbar-nav">
-        <a href="#home">Dashboard</a>
-        <a href="#">Webinar</a>
-        <a href="#">Konsultasi</a>
-        <a href="#aboutus">About Us</a>
+        <a href="#home">Home</a>
+        <a href="#webinar">Webinar</a>
+        <a href="#konsul">Konsultasi</a>
+        <a href="#about">About Us</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="webinar"><i data-feather="video"></i></a>
         <a href="#" id="login"><i data-feather="log-in"></i></a>
         <a href="#" id="menu"><i data-feather="menu"></i></a>
       </div>
@@ -41,15 +41,57 @@
 
     <!-- Hero Section Start -->
     <section class="hero" id="home">
-      <main class="content"></main>
+      <main class="content">
+        <h1>Layanan Konsultasi <span>Bisnis</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum,
+          voluptates.
+        </p>
+        <a href="#" class="to-login">Get Started</a>
+      </main>
     </section>
     <!-- Hero Section End -->
+
+    <!-- Webinar Section Start -->
+    <section class="webinar-section" id="webinar">
+      <main class="webinar-content">
+        <h3><span>WEB</span>INAR BISNIS.</h3>
+        <p>Carilah materi webinar pilihanmu untuk dapat mengasah skillmu</p>
+        <ul>
+          <li></li>
+        </ul>
+      </main>
+    </section>
+    <!-- Webinar Section End -->
+
+    <!-- About Section Start-->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="src/images/tentang-kami.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa Harus TendaTanya ??</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+            modi consequatur saepe molestiae repellat ut.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+            temporibus doloribus quo ut, velit debitis.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End-->
 
     <!-- Feather Icons -->
     <script>
       feather.replace();
     </script>
     <!-- MY Js -->
-    <script src="src/script/script.js"></script>
+    <script src="src/script/index.js"></script>
   </body>
 </html>
